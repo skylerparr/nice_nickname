@@ -8,11 +8,11 @@ How to use
 
 Include the dependency in the mix.exs:
 
-  defp deps do
-    [
-      {:nice_nickname, "~> 0.1.0"}
-    ]
-  end
+    defp deps do
+      [
+        {:nice_nickname, "~> 0.1.0"}
+      ]
+    end
 
 Define your profanity dictionary
 ================================
