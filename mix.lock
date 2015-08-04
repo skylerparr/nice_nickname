@@ -1,0 +1,2 @@
+%{"poison": {:hex, :poison, "1.4.0"},
+  "random": {:git, "https://github.com/mururu/elixir-random.git", "16f1ebf527a25916e07c20950db25994a1adba73", []}}

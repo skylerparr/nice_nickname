@@ -1,0 +1,2 @@
+defmodule NiceNickname do
+end
