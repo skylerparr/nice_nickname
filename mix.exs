@@ -14,7 +14,7 @@ defmodule NiceNickname.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :random, :poison]]
   end
 
   # Dependencies can be Hex packages:
@@ -30,6 +30,21 @@ defmodule NiceNickname.Mixfile do
     [
       {:random, git: "https://github.com/mururu/elixir-random.git"},
       {:poison, "~> 1.4.0"}
+    ]
+  end
+
+  defp description do
+    """
+    A nickname generator and profanity filter for Elixir
+    """
+  end
+
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README*", "LICENSE", "resources"],
+      contributors: ["Skyler Parr"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/skylerparr/nice_nickname"}
     ]
   end
 end
